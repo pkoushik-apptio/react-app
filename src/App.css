@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.event-body {
+  margin-top: 30px;
+  padding: 20px;
+  border: solid thin black;
+  width: 30%;
+}
+
+.event-body > * {
+  margin-top: 10px;
+}
+
+.event-body__mouse_events {
+  padding: 20px;
+  background-color:deepskyblue;
+  width: 30%;
+  text-align: center;
+}
